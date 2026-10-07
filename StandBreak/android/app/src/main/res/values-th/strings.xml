@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">ถึงเป้าหมายแล้ว!</string>
+    <string name="notif_goal_body">ถึงเป้าหมายอดอาหาร %1$s แล้ว</string>
+    <string name="notif_reminder_title">แจ้งเตือนการอดอาหาร</string>
+    <string name="notif_reminder_body">อีก %1$s ถึงเป้าหมายอดอาหาร</string>
+    <string name="channel_normal">การแจ้งเตือน Fast</string>
+    <string name="channel_strong">การแจ้งเตือนแรง Fast</string>
+    <string name="alarm_default_title">นาฬิกาปลุก</string>
+    <string name="alarm_open_app">เปิดแอป Fast</string>
+    <string name="alarm_dismiss">ปิด</string>
+</resources>

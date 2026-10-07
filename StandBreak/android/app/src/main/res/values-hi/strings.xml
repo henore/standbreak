@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">लक्ष्य पूरा!</string>
+    <string name="notif_goal_body">%1$s उपवास लक्ष्य पूरा हुआ।</string>
+    <string name="notif_reminder_title">उपवास रिमाइंडर</string>
+    <string name="notif_reminder_body">उपवास लक्ष्य तक %1$s शेष।</string>
+    <string name="channel_normal">Fast सूचनाएं</string>
+    <string name="channel_strong">Fast तीव्र अलर्ट</string>
+    <string name="alarm_default_title">अलार्म</string>
+    <string name="alarm_open_app">Fast ऐप खोलें</string>
+    <string name="alarm_dismiss">बंद करें</string>
+</resources>

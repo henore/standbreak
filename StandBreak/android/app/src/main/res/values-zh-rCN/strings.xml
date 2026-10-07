@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">目标达成！</string>
+    <string name="notif_goal_body">%1$s 断食目标已达成。</string>
+    <string name="notif_reminder_title">断食提醒</string>
+    <string name="notif_reminder_body">距断食目标还有 %1$s。</string>
+    <string name="channel_normal">Fast 通知</string>
+    <string name="channel_strong">Fast 强力提醒</string>
+    <string name="alarm_default_title">闹钟</string>
+    <string name="alarm_open_app">打开Fast应用</string>
+    <string name="alarm_dismiss">关闭</string>
+</resources>

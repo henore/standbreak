@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">Doel behaald!</string>
+    <string name="notif_goal_body">Vastendoel van %1$s behaald.</string>
+    <string name="notif_reminder_title">Vastenherinnering</string>
+    <string name="notif_reminder_body">Nog %1$s tot het vastendoel.</string>
+    <string name="channel_normal">Fast Meldingen</string>
+    <string name="channel_strong">Fast Sterke Waarschuwingen</string>
+    <string name="alarm_default_title">Alarm</string>
+    <string name="alarm_open_app">Fast App openen</string>
+    <string name="alarm_dismiss">Sluiten</string>
+</resources>

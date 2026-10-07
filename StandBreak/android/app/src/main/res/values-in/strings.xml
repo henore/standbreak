@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">Target tercapai!</string>
+    <string name="notif_goal_body">Target puasa %1$s tercapai.</string>
+    <string name="notif_reminder_title">Pengingat puasa</string>
+    <string name="notif_reminder_body">%1$s lagi menuju target puasa.</string>
+    <string name="channel_normal">Notifikasi Fast</string>
+    <string name="channel_strong">Peringatan Kuat Fast</string>
+    <string name="alarm_default_title">Alarm</string>
+    <string name="alarm_open_app">Buka Aplikasi Fast</string>
+    <string name="alarm_dismiss">Tutup</string>
+</resources>

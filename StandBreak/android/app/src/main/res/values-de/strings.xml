@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">Ziel erreicht!</string>
+    <string name="notif_goal_body">%1$s Fastenziel erreicht.</string>
+    <string name="notif_reminder_title">Fasten-Erinnerung</string>
+    <string name="notif_reminder_body">%1$s bis zum Fastenziel.</string>
+    <string name="channel_normal">Fast Benachrichtigungen</string>
+    <string name="channel_strong">Fast Starke Alarme</string>
+    <string name="alarm_default_title">Alarm</string>
+    <string name="alarm_open_app">Fast App öffnen</string>
+    <string name="alarm_dismiss">Schließen</string>
+</resources>

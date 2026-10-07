@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">Đạt mục tiêu!</string>
+    <string name="notif_goal_body">Đã đạt mục tiêu nhịn ăn %1$s.</string>
+    <string name="notif_reminder_title">Nhắc nhở nhịn ăn</string>
+    <string name="notif_reminder_body">Còn %1$s đến mục tiêu nhịn ăn.</string>
+    <string name="channel_normal">Thông báo Fast</string>
+    <string name="channel_strong">Cảnh báo mạnh Fast</string>
+    <string name="alarm_default_title">Báo thức</string>
+    <string name="alarm_open_app">Mở ứng dụng Fast</string>
+    <string name="alarm_dismiss">Đóng</string>
+</resources>

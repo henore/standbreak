@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">Meta alcançada!</string>
+    <string name="notif_goal_body">Meta de jejum de %1$s alcançada.</string>
+    <string name="notif_reminder_title">Lembrete de jejum</string>
+    <string name="notif_reminder_body">%1$s para a meta de jejum.</string>
+    <string name="channel_normal">Notificações Fast</string>
+    <string name="channel_strong">Alertas fortes Fast</string>
+    <string name="alarm_default_title">Alarme</string>
+    <string name="alarm_open_app">Abrir Fast</string>
+    <string name="alarm_dismiss">Fechar</string>
+</resources>

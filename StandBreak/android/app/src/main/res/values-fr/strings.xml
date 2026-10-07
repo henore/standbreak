@@ -1,0 +1,11 @@
+<resources>
+    <string name="notif_goal_title">Objectif atteint !</string>
+    <string name="notif_goal_body">Objectif de jeûne de %1$s atteint.</string>
+    <string name="notif_reminder_title">Rappel de jeûne</string>
+    <string name="notif_reminder_body">%1$s avant l\'objectif de jeûne.</string>
+    <string name="channel_normal">Notifications Fast</string>
+    <string name="channel_strong">Alertes fortes Fast</string>
+    <string name="alarm_default_title">Alarme</string>
+    <string name="alarm_open_app">Ouvrir Fast</string>
+    <string name="alarm_dismiss">Fermer</string>
+</resources>

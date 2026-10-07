@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Full background -->
+  <rect width="512" height="512" fill="#111"/>
+
+  <!-- White border circle with black fill -->
+  <circle cx="256" cy="256" r="240" fill="#111" stroke="#fff" stroke-width="6"/>
+
+  <!-- Hour hand at 4 o'clock (16h) - long, thick -->
+  <line x1="256" y1="256" x2="360" y2="360" stroke="#777" stroke-width="14" stroke-linecap="round"/>
+  <!-- Minute hand at 12 - long -->
+  <line x1="256" y1="256" x2="256" y2="90" stroke="#666" stroke-width="8" stroke-linecap="round"/>
+  <!-- Center dot -->
+  <circle cx="256" cy="256" r="12" fill="#888"/>
+
+  <!-- "16h" centered, baseline aligned -->
+  <text x="220" y="330" font-family="Helvetica, Arial, sans-serif" font-size="240" font-weight="400" fill="#ffffff" text-anchor="middle">16</text>
+  <text x="365" y="330" font-family="Helvetica, Arial, sans-serif" font-size="90" font-weight="400" fill="#cccccc" text-anchor="start">h</text>
+</svg>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Stand Break</string>
+    <string name="widget_description">Stand break timer</string>
+    <string name="notif_goal_title">Time to move!</string>
+    <string name="notif_goal_body">Work timer ended. Stand up and stretch!</string>
+    <string name="notif_reminder_title">Stand Break reminder</string>
+    <string name="notif_reminder_body">%1$s until break time.</string>
+    <string name="channel_normal">Stand Break Notifications</string>
+    <string name="channel_strong">Stand Break Alerts</string>
+    <string name="alarm_default_title">Break Time</string>
+    <string name="alarm_open_app">Open Stand Break</string>
+    <string name="alarm_dismiss">Dismiss</string>
+</resources>
