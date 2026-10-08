@@ -94,9 +94,9 @@ android {
         }
         release {
             storeFile file('release.keystore')
-            storePassword 'standbreakrelease123'
-            keyAlias 'standbreak-release'
-            keyPassword 'standbreakrelease123'
+            storePassword 'fastrelease123'
+            keyAlias 'fast-release'
+            keyPassword 'fastrelease123'
         }
     }
     buildTypes {
