@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">Obiettivo raggiunto!</string>
-    <string name="notif_goal_body">Obiettivo di digiuno di %1$s raggiunto.</string>
-    <string name="notif_reminder_title">Promemoria digiuno</string>
-    <string name="notif_reminder_body">%1$s all\'obiettivo di digiuno.</string>
-    <string name="channel_normal">Notifiche Fast</string>
-    <string name="channel_strong">Avvisi forti Fast</string>
-    <string name="alarm_default_title">Allarme</string>
-    <string name="alarm_open_app">Apri Fast</string>
+    <string name="notif_goal_title">È ora di muoversi!</string>
+    <string name="notif_goal_body">Timer di lavoro terminato. Alzati e fai stretching!</string>
+    <string name="notif_reminder_title">Promemoria Stand Break</string>
+    <string name="notif_reminder_body">%1$s alla pausa.</string>
+    <string name="channel_normal">Notifiche Stand Break</string>
+    <string name="channel_strong">Avvisi forti Stand Break</string>
+    <string name="alarm_default_title">Pausa</string>
+    <string name="alarm_open_app">Apri Stand Break</string>
     <string name="alarm_dismiss">Chiudi</string>
 </resources>

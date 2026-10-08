@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">تم تحقيق الهدف!</string>
-    <string name="notif_goal_body">تم تحقيق هدف الصيام %1$s.</string>
-    <string name="notif_reminder_title">تذكير بالصيام</string>
-    <string name="notif_reminder_body">%1$s حتى هدف الصيام.</string>
-    <string name="channel_normal">إشعارات Fast</string>
-    <string name="channel_strong">تنبيهات Fast القوية</string>
-    <string name="alarm_default_title">منبه</string>
-    <string name="alarm_open_app">فتح تطبيق Fast</string>
+    <string name="notif_goal_title">حان وقت التحرك!</string>
+    <string name="notif_goal_body">انتهى مؤقت العمل. قم وتمدد!</string>
+    <string name="notif_reminder_title">تذكير Stand Break</string>
+    <string name="notif_reminder_body">%1$s حتى وقت الاستراحة.</string>
+    <string name="channel_normal">إشعارات Stand Break</string>
+    <string name="channel_strong">تنبيهات Stand Break القوية</string>
+    <string name="alarm_default_title">وقت الاستراحة</string>
+    <string name="alarm_open_app">فتح تطبيق Stand Break</string>
     <string name="alarm_dismiss">إغلاق</string>
 </resources>

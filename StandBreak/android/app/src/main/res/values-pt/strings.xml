@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">Meta alcançada!</string>
-    <string name="notif_goal_body">Meta de jejum de %1$s alcançada.</string>
-    <string name="notif_reminder_title">Lembrete de jejum</string>
-    <string name="notif_reminder_body">%1$s para a meta de jejum.</string>
-    <string name="channel_normal">Notificações Fast</string>
-    <string name="channel_strong">Alertas fortes Fast</string>
-    <string name="alarm_default_title">Alarme</string>
-    <string name="alarm_open_app">Abrir Fast</string>
+    <string name="notif_goal_title">Hora de se mover!</string>
+    <string name="notif_goal_body">Timer de trabalho encerrado. Levante e alongue-se!</string>
+    <string name="notif_reminder_title">Lembrete Stand Break</string>
+    <string name="notif_reminder_body">%1$s para o intervalo.</string>
+    <string name="channel_normal">Notificações Stand Break</string>
+    <string name="channel_strong">Alertas fortes Stand Break</string>
+    <string name="alarm_default_title">Hora do intervalo</string>
+    <string name="alarm_open_app">Abrir Stand Break</string>
     <string name="alarm_dismiss">Fechar</string>
 </resources>

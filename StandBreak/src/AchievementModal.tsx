@@ -69,7 +69,7 @@ export default function AchievementModal({visible, info, onDone}: Props) {
       onRequestClose={onDone}>
       <View style={cs.overlay}>
         <View ref={cardRef} collapsable={false} style={cs.card}>
-          <Text style={cs.header}>FAST</Text>
+          <Text style={cs.header}>STAND BREAK</Text>
           <Text style={cs.duration}>{formatDur(info.durationMinutes)}</Text>
           {hasAnyBadge && (
             <View style={cs.badges}>
@@ -86,7 +86,7 @@ export default function AchievementModal({visible, info, onDone}: Props) {
               )}
             </View>
           )}
-          <Text style={cs.footer}>Fast</Text>
+          <Text style={cs.footer}>Stand Break</Text>
         </View>
         <View style={cs.buttons}>
           <Pressable onPress={onDone} style={cs.doneBtn}>

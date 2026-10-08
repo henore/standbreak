@@ -24,7 +24,7 @@ class WidgetDataModule(reactContext: ReactApplicationContext) :
             .putLong("last_meal_timestamp", lastMeal.toLong())
             .putFloat("goal_hours", goalHours.toFloat())
             .apply()
-        FastWidgetProvider.updateAllWidgets(reactApplicationContext)
+        StandBreakWidgetProvider.updateAllWidgets(reactApplicationContext)
     }
 
     @ReactMethod
@@ -61,6 +61,6 @@ class WidgetDataModule(reactContext: ReactApplicationContext) :
 
     companion object {
         const val NAME = "WidgetDataModule"
-        const val PREFS = "fast_widget_data"
+        const val PREFS = "standbreak_widget_data"
     }
 }

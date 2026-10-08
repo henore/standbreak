@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">目標達成！</string>
-    <string name="notif_goal_body">%1$s 斷食目標已達成。</string>
-    <string name="notif_reminder_title">斷食提醒</string>
-    <string name="notif_reminder_body">距斷食目標還有 %1$s。</string>
-    <string name="channel_normal">Fast 通知</string>
-    <string name="channel_strong">Fast 強力提醒</string>
-    <string name="alarm_default_title">鬧鐘</string>
-    <string name="alarm_open_app">開啟Fast應用</string>
+    <string name="notif_goal_title">該活動了！</string>
+    <string name="notif_goal_body">工作計時器結束。站起來伸展一下！</string>
+    <string name="notif_reminder_title">Stand Break 提醒</string>
+    <string name="notif_reminder_body">距離休息還有 %1$s。</string>
+    <string name="channel_normal">Stand Break 通知</string>
+    <string name="channel_strong">Stand Break 強力提醒</string>
+    <string name="alarm_default_title">休息時間</string>
+    <string name="alarm_open_app">開啟Stand Break應用</string>
     <string name="alarm_dismiss">關閉</string>
 </resources>

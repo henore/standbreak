@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">目標達成！</string>
-    <string name="notif_goal_body">%1$s の断食目標を達成しました。</string>
-    <string name="notif_reminder_title">断食リマインダー</string>
-    <string name="notif_reminder_body">断食目標まであと %1$s。</string>
-    <string name="channel_normal">Fast 通知</string>
-    <string name="channel_strong">Fast 強力アラート</string>
-    <string name="alarm_default_title">アラーム</string>
-    <string name="alarm_open_app">Fastアプリを開く</string>
+    <string name="notif_goal_title">休憩の時間です！</string>
+    <string name="notif_goal_body">作業タイマー終了。立ち上がってストレッチしましょう！</string>
+    <string name="notif_reminder_title">Stand Break リマインダー</string>
+    <string name="notif_reminder_body">休憩まであと%1$s。</string>
+    <string name="channel_normal">Stand Break 通知</string>
+    <string name="channel_strong">Stand Break 強力アラート</string>
+    <string name="alarm_default_title">休憩時間</string>
+    <string name="alarm_open_app">Stand Breakを開く</string>
     <string name="alarm_dismiss">閉じる</string>
 </resources>

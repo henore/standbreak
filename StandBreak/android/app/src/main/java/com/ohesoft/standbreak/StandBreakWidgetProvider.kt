@@ -9,21 +9,14 @@ import android.content.Context
 import android.content.Intent
 import android.widget.RemoteViews
 
-class FastWidgetProvider : AppWidgetProvider() {
+class StandBreakWidgetProvider : AppWidgetProvider() {
 
     companion object {
         private const val ACTION_TICK = "com.ohesoft.standbreak.WIDGET_TICK"
 
-        private val PHASES = arrayOf(
-            Pair(24, "AUTOPHAGY"),
-            Pair(20, "KETOSIS"),
-            Pair(16, "FAT BURNING"),
-            Pair(12, "GLYCOGEN DEPLETION"),
-        )
-
         fun updateAllWidgets(context: Context) {
             val mgr = AppWidgetManager.getInstance(context)
-            val ids = mgr.getAppWidgetIds(ComponentName(context, FastWidgetProvider::class.java))
+            val ids = mgr.getAppWidgetIds(ComponentName(context, StandBreakWidgetProvider::class.java))
             for (id in ids) {
                 updateWidget(context, mgr, id)
             }
@@ -31,42 +24,18 @@ class FastWidgetProvider : AppWidgetProvider() {
 
         private fun updateWidget(context: Context, mgr: AppWidgetManager, widgetId: Int) {
             val prefs = context.getSharedPreferences(WidgetDataModule.PREFS, Context.MODE_PRIVATE)
-            val lastMeal = prefs.getLong("last_meal_timestamp", 0L).let { if (it == 0L) null else it }
-            val goalHours = prefs.getFloat("goal_hours", 16f).toDouble()
+            val breakCount = prefs.getInt("break_count", 0)
+            val moveMinutes = prefs.getInt("move_minutes", 0)
+            val streak = prefs.getInt("streak", 0)
 
-            val now = System.currentTimeMillis()
-            val elapsed = if (lastMeal != null) now - lastMeal else 0L
-            val elapsedMin = (elapsed / 60000).toInt()
-            val hours = elapsedMin / 60
-            val mins = elapsedMin % 60
+            val breakText = "$breakCount breaks"
+            val moveText = "${moveMinutes}m moved"
+            val streakText = if (streak > 0) "$streak day streak" else ""
 
-            val timerText = "${hours.toString().padStart(2, '0')} h  ${mins.toString().padStart(2, '0')} m"
-
-            val phase = if (elapsed < 60_000) {
-                "STARTED"
-            } else {
-                var label = "FASTING"
-                for ((h, l) in PHASES) {
-                    if (elapsed >= h * 3600000L) {
-                        label = l
-                        break
-                    }
-                }
-                label
-            }
-
-            val goalText = if (goalHours % 1.0 == 0.0) {
-                "Goal ${goalHours.toInt()}h"
-            } else {
-                val gh = goalHours.toInt()
-                val gm = ((goalHours % 1.0) * 60).toInt()
-                "Goal ${gh}:${gm.toString().padStart(2, '0')}"
-            }
-
-            val views = RemoteViews(context.packageName, R.layout.widget_fast)
-            views.setTextViewText(R.id.widget_timer, timerText)
-            views.setTextViewText(R.id.widget_phase, phase)
-            views.setTextViewText(R.id.widget_goal, goalText)
+            val views = RemoteViews(context.packageName, R.layout.widget_standbreak)
+            views.setTextViewText(R.id.widget_timer, breakText)
+            views.setTextViewText(R.id.widget_phase, moveText)
+            views.setTextViewText(R.id.widget_goal, streakText)
 
             val launchIntent = context.packageManager.getLaunchIntentForPackage(context.packageName)
             if (launchIntent != null) {
@@ -116,7 +85,7 @@ class FastWidgetProvider : AppWidgetProvider() {
     }
 
     private fun getTickPendingIntent(context: Context): PendingIntent {
-        val intent = Intent(context, FastWidgetProvider::class.java).apply {
+        val intent = Intent(context, StandBreakWidgetProvider::class.java).apply {
             action = ACTION_TICK
         }
         return PendingIntent.getBroadcast(

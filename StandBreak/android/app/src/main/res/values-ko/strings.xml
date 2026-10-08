@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">목표 달성!</string>
-    <string name="notif_goal_body">%1$s 단식 목표를 달성했습니다.</string>
-    <string name="notif_reminder_title">단식 알림</string>
-    <string name="notif_reminder_body">단식 목표까지 %1$s 남음.</string>
-    <string name="channel_normal">Fast 알림</string>
-    <string name="channel_strong">Fast 강력 알림</string>
-    <string name="alarm_default_title">알람</string>
-    <string name="alarm_open_app">Fast 앱 열기</string>
+    <string name="notif_goal_title">움직일 시간!</string>
+    <string name="notif_goal_body">작업 타이머 종료. 일어나서 스트레칭하세요!</string>
+    <string name="notif_reminder_title">Stand Break 알림</string>
+    <string name="notif_reminder_body">휴식까지 %1$s 남음.</string>
+    <string name="channel_normal">Stand Break 알림</string>
+    <string name="channel_strong">Stand Break 강력 알림</string>
+    <string name="alarm_default_title">휴식 시간</string>
+    <string name="alarm_open_app">Stand Break 앱 열기</string>
     <string name="alarm_dismiss">닫기</string>
 </resources>

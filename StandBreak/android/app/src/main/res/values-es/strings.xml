@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">¡Meta alcanzada!</string>
-    <string name="notif_goal_body">Meta de ayuno de %1$s alcanzada.</string>
-    <string name="notif_reminder_title">Recordatorio de ayuno</string>
-    <string name="notif_reminder_body">%1$s para la meta de ayuno.</string>
-    <string name="channel_normal">Notificaciones de Fast</string>
-    <string name="channel_strong">Alertas fuertes de Fast</string>
-    <string name="alarm_default_title">Alarma</string>
-    <string name="alarm_open_app">Abrir Fast</string>
+    <string name="notif_goal_title">¡Hora de moverse!</string>
+    <string name="notif_goal_body">Temporizador de trabajo terminado. ¡Levántate y estírate!</string>
+    <string name="notif_reminder_title">Recordatorio Stand Break</string>
+    <string name="notif_reminder_body">%1$s hasta el descanso.</string>
+    <string name="channel_normal">Notificaciones de Stand Break</string>
+    <string name="channel_strong">Alertas fuertes de Stand Break</string>
+    <string name="alarm_default_title">Hora del descanso</string>
+    <string name="alarm_open_app">Abrir Stand Break</string>
     <string name="alarm_dismiss">Cerrar</string>
 </resources>

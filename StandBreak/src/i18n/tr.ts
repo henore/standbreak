@@ -1,10 +1,4 @@
 const tr: Record<string, string> = {
-  phase_glycogen: 'Glikojen Tükenmesi',
-  phase_fat: 'Yağ Yakımı',
-  phase_ketosis: 'Ketozis',
-  phase_autophagy: 'Otofaji',
-  phase_fasting: 'ORUÇ',
-  started_just_now: 'Az önce başladı',
 
   tab_timer: 'Zamanlayıcı',
   tab_history: 'Geçmiş',
@@ -15,20 +9,19 @@ const tr: Record<string, string> = {
   best: 'En iyi',
   unit_h: 'h',
   unit_m: 'm',
-  hold_to_log: 'Yemek kaydetmek için basılı tutun',
   pro_active: 'Pro Aktif',
   pro_trial_badge: 'Pro Deneme',
   upgrade_lifetime: 'Pro\'ya yükselt — $2.99 Ömür boyu',
 
   history_title: 'Oruç Geçmişi',
-  history_empty: 'Henüz oruç geçmişi yok',
+  history_empty: 'Henüz geçmiş yok',
   goal_reached: 'Hedefe Ulaşıldı',
   not_reached: 'Ulaşılamadı',
   edit: 'Düzenle',
   history_more: '+{0} daha — Pro\'ya yükselt',
 
   stats_title: 'İstatistikler',
-  stats_empty: 'Henüz oruç istatistiği yok',
+  stats_empty: 'Henüz istatistik yok',
   completed: 'Tamamlanan',
   longest: 'En uzun',
   average: 'Ortalama',
@@ -37,7 +30,7 @@ const tr: Record<string, string> = {
   sun: 'Paz', mon: 'Pzt', tue: 'Sal', wed: 'Çar', thu: 'Per', fri: 'Cum', sat: 'Cmt',
 
   settings_title: 'Ayarlar',
-  fasting_goal: 'Oruç Hedefi',
+  work_goal: 'Oruç Hedefi',
   custom_goal: 'Özel Hedef',
   pro_tag: '(Pro)',
   set: 'Ayarla',
@@ -72,7 +65,7 @@ const tr: Record<string, string> = {
   cancel: 'İptal',
   buy_price: 'Satın Al $2.99',
   invalid: 'Geçersiz',
-  alert_goal_12h: 'Hedef en az 12 saat olmalıdır.',
+  alert_goal_min: 'Hedef en az 12 saat olmalıdır.',
   alert_permission_title: 'İzin Gerekli',
   alert_permission_body: 'Güçlü uyarılar için kesin hatırlatıcı zamanlama izni gereklidir.',
   alert_invalid_hhmm: 'Geçerli saat ve dakika girin.',
@@ -86,7 +79,7 @@ const tr: Record<string, string> = {
   alert_delete_body: 'Bu kayıt kalıcı olarak silinecek. Bu geri alınamaz.',
   delete: 'Sil',
   alert_battery_title: 'Pil Ayarları',
-  alert_battery_body: 'Bildirimler veya alarmlar gelmiyorsa, Ayarlar > Uygulamalar > Fast > Pil bölümüne gidin ve "Kısıtlanmamış" olarak ayarlayın.\n\nBu, ekran kapalıyken zamanlanmış uyarıların engellenmesini önler.',
+  alert_battery_body: 'Bildirimler veya alarmlar gelmiyorsa, Ayarlar > Uygulamalar > Stand Break > Pil bölümüne gidin ve "Kısıtlanmamış" olarak ayarlayın.\n\nBu, ekran kapalıyken zamanlanmış uyarıların engellenmesini önler.',
   close: 'Kapat',
 
 
@@ -98,11 +91,6 @@ const tr: Record<string, string> = {
   overlay_settings_1: 'Özel ayarlar ve bildirimler burada.',
   tap_to_dismiss: 'Kapatmak için dokunun',
 
-  log_meal: 'Yemek Kaydet',
-  meal_note: 'Yemek Notu',
-  meal_note_placeholder: 'Ne yediniz?',
-  meal_photo: 'Yemek Fotoğrafı',
-  choose_photo: 'Fotoğraf Seç',
   confirm: 'Onayla',
   edit_time: 'Zamanı Düzenle',
   start: 'Başlangıç',
@@ -125,9 +113,9 @@ const tr: Record<string, string> = {
   achievement_day_streak: '{0} DAY STREAK',
   share: 'Share',
   done: 'Done',
-  share_text_goal: 'I fasted for {0} with Fast.',
-  share_text_best: 'New personal best: {0} with Fast.',
-  share_text_streak: '{0}-day fasting streak with Fast.',
+  share_text_goal: '{0} breaks today with Stand Break!',
+  share_text_best: 'New personal best: {0} with Stand Break!',
+  share_text_streak: '{0}-day streak with Stand Break!',
 
   language: 'Dil',
 

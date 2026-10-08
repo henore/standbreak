@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Fast.app"
-               BlueprintName = "Fast"
-               ReferencedContainer = "container:Fast.xcodeproj">
+               BuildableName = "StandBreak.app"
+               BlueprintName = "StandBreak"
+               ReferencedContainer = "container:StandBreak.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "FastTests.xctest"
-               BlueprintName = "FastTests"
-               ReferencedContainer = "container:Fast.xcodeproj">
+               BuildableName = "StandBreakTests.xctest"
+               BlueprintName = "StandBreakTests"
+               ReferencedContainer = "container:StandBreak.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Fast.app"
-            BlueprintName = "Fast"
-            ReferencedContainer = "container:Fast.xcodeproj">
+            BuildableName = "StandBreak.app"
+            BlueprintName = "StandBreak"
+            ReferencedContainer = "container:StandBreak.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Fast.app"
-            BlueprintName = "Fast"
-            ReferencedContainer = "container:Fast.xcodeproj">
+            BuildableName = "StandBreak.app"
+            BlueprintName = "StandBreak"
+            ReferencedContainer = "container:StandBreak.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

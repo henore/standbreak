@@ -1,11 +1,11 @@
 <resources>
-    <string name="notif_goal_title">Hedefe ulaşıldı!</string>
-    <string name="notif_goal_body">%1$s oruç hedefine ulaşıldı.</string>
-    <string name="notif_reminder_title">Oruç hatırlatıcısı</string>
-    <string name="notif_reminder_body">Oruç hedefine %1$s kaldı.</string>
-    <string name="channel_normal">Fast Bildirimleri</string>
-    <string name="channel_strong">Fast Güçlü Uyarılar</string>
-    <string name="alarm_default_title">Alarm</string>
-    <string name="alarm_open_app">Fast Uygulamasını Aç</string>
+    <string name="notif_goal_title">Hareket zamanı!</string>
+    <string name="notif_goal_body">Çalışma zamanlayıcısı bitti. Kalkın ve esneme yapın!</string>
+    <string name="notif_reminder_title">Stand Break hatırlatıcısı</string>
+    <string name="notif_reminder_body">Molaya %1$s kaldı.</string>
+    <string name="channel_normal">Stand Break Bildirimleri</string>
+    <string name="channel_strong">Stand Break Güçlü Uyarılar</string>
+    <string name="alarm_default_title">Mola zamanı</string>
+    <string name="alarm_open_app">Stand Break Uygulamasını Aç</string>
     <string name="alarm_dismiss">Kapat</string>
 </resources>
